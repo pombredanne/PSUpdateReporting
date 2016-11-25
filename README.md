@@ -20,22 +20,22 @@ results-based separations.
 
 ###Listing
 
-*Get-APIKey
+* Get-APIKey
 
    Displays the API key setting previously set with Set-APIKey.
 
-*Set-APIKey
+* Set-APIKey
 
    Sets the API key provided by the user as a parameter.  
    API key is available 
    [here](https://portal.msrc.microsoft.com/en-us/developer).
 
-*Receive-UpdateListing
+* Receive-UpdateListing
 
    Uses API Key to pull information from MSRC, stores data temporarily.  
    Primary parameter is search scope.
 
-*Save-UpdateReport
+* Save-UpdateReport
 
    Saves report data.  
    Parameters include FileType, Path.
