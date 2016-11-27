@@ -13,12 +13,14 @@ This PowerShell module makes use of the exposed API in order to retreive
 update information. Once the information is gathered, it may be reported
 on in a manner useful to the administrator with built-in functionality.
 
-##Scripts
+##Functions
 
-Scripts are broken down into the usual PowerShell verb-noun
+Functions are broken down into the usual PowerShell verb-noun
 results-based separations.
 
 ###Listing
+
+####MSRCAPIKey-actions.ps1
 
 * Get-APIKey
 
@@ -29,6 +31,8 @@ results-based separations.
    Sets the API key provided by the user as a parameter.  
    API key is available 
    [here](https://portal.msrc.microsoft.com/en-us/developer).
+
+####Data-actions.ps1
 
 * Receive-UpdateListing
 
